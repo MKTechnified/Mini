@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Mini" parent="android:Theme.Material.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+    <style name="SplashTheme" parent="Base.Theme.Mini">
+        <item name="android:windowBackground">@drawable/mainsplash_layout</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+</resources>
